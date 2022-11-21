@@ -32,12 +32,32 @@ People_ p; // 이렇게 사용
 void PrintPeople(People a)
 {
 	printf("%s : %i\r\n", a.name, a.age);
+	++a.age;
+	// 함수가 종료될 시 메모리에서 pop 되기 때문에 원레의 값이 바뀌지 않음  
+}
+
+// 무언가 바꿀려고 하면 주소를 전달해야 함
+void SetAge(People* a, int newAge)
+{
+	a->age = newAge;
+	// a 가 구조체가 아니라
+	// a 가 가리키는 내용이 구조체임
+	// (*a).age = newAge;
+
 }
 
 int main()
 {
-	a.age = 4;
-	strcpy(b.name, "Hello");
+	People aa;
+	aa.age = 4;
+	strcpy(aa.name, "Hello");
+	char* cp = (char*)&aa;
+	// 구조체는 구조체 맴버들을 전부 다 할당하고 나서 
+	// 구조체 자신을 가리키는 맴버임
+	// cp + 5 하면 e 가 나올거임
+	printf("%c\r\n", cp[5]);
+
+
 
 
 	struct People c; // 이렇게 선언할 수 있음
@@ -45,7 +65,9 @@ int main()
 	strcpy(c.name, "World");
 
 	PrintPeople(b);
-	PrintPeople(c);
+
+	// setage 의 param 이 포인터이기 때문에 주소로 전달함
+	SetAge(&aa, aa.age + 1);
 
 	return(0);
 }
