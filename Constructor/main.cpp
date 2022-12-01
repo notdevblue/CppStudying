@@ -66,7 +66,7 @@ public: // 기본적으로는 private 임
 	// 함수인 멤버를 Member function
 };
 
-int main()
+int main2()
 {
 	//KPeople a;
 	////a.Initialize(); // 생성자가 대신 해줌
