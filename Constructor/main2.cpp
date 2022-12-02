@@ -4,6 +4,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+#ifdef BUILD
+
+
 class KPeople
 {
 public:
@@ -105,3 +108,5 @@ int main()
 
 	return(0);
 }
+
+#endif

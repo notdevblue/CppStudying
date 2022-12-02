@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+#ifdef BUILD
 
 // 구조체는 은 모든 데이터 멤버가 public 인 클레스와 거의 유사함
 
@@ -66,7 +67,7 @@ public: // 기본적으로는 private 임
 	// 함수인 멤버를 Member function
 };
 
-int main2()
+int main1()
 {
 	//KPeople a;
 	////a.Initialize(); // 생성자가 대신 해줌
@@ -117,3 +118,5 @@ int main2()
 
 	return(0);
 }
+
+#endif
