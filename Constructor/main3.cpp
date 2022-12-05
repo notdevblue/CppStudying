@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+#ifdef BUILD
 
 
 class KPeople
@@ -99,3 +100,5 @@ int main()
 
 	return(0);
 }
+
+#endif

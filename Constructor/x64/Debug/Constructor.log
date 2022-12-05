@@ -1,2 +1,4 @@
-﻿  main3.cpp
-  Constructor.vcxproj -> D:\School\CppStudying\Constructor\x64\Debug\Constructor.exe
+﻿  main4.cpp
+D:\School\CppStudying\Constructor\main4.cpp(80,2): error C2248: 'KPeople::KPeople': private 멤버('KPeople' 클래스에서 선언)에 액세스할 수 없습니다.
+D:\School\CppStudying\Constructor\main4.cpp(29): message : 'KPeople::KPeople' 선언을 참조하십시오.
+D:\School\CppStudying\Constructor\main4.cpp(8): message : 'KPeople' 선언을 참조하십시오.
