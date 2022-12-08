@@ -1,5 +1,7 @@
 ﻿#include <stdio.h>
 
+#if false
+
 void Test(const char* msg)
 {
 	//msg[0] = 'S'; // const 넣으면 에러 떠요
@@ -115,3 +117,5 @@ void main()
 	//t.IncAge();
 	// IncAge 는 상수 함수가 아니므로 타당하지 않음
 }
+
+#endif
