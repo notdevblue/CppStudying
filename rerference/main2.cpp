@@ -1,5 +1,7 @@
 ﻿#include <stdio.h>
 
+#if false
+
 //void Swap(int i, int j)
 //{
 //	int t = i;
@@ -49,3 +51,5 @@ int main()
 
 	return(0);
 }
+
+#endif
