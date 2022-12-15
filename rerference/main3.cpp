@@ -1,5 +1,7 @@
 ﻿#include <stdio.h>
 
+#if false
+
 #define REF
 #define IN
 #define OUT
@@ -196,3 +198,5 @@ int main()
 
 	return(0);
 }
+
+#endif
