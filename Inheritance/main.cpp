@@ -1,4 +1,6 @@
-﻿#include <stdio.h>
+﻿#if false
+
+#include <stdio.h>
 
 // KTest 타입의 객채를 만들었을 때,
 // A 함수는 호출할 수 있지만,
@@ -136,3 +138,5 @@ void main()
 	//t2.P();
 	// protected 이므로 접근 불가능
 }
+
+#endif
