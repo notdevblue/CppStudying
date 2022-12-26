@@ -1,4 +1,6 @@
-﻿#include <stdio.h>
+﻿#if false
+
+#include <stdio.h>
 
 class KTire
 {
@@ -119,3 +121,6 @@ void main()
 
 	delete pDriver;
 }
+
+
+#endif
