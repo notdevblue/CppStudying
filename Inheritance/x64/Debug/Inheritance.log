@@ -1,3 +1,3 @@
-﻿  main3.cpp
-D:\School\CppStudying\Inheritance\main3.cpp(86,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+﻿  main4.cpp
+D:\School\CppStudying\Inheritance\main4.cpp(49,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
   Inheritance.vcxproj -> D:\School\CppStudying\Inheritance\x64\Debug\Inheritance.exe
