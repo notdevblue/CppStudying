@@ -1,4 +1,6 @@
-﻿#include <stdio.h>
+﻿#if false
+
+#include <stdio.h>
 
 class KBase
 {
@@ -75,3 +77,5 @@ void main()
 	//delete pa;
 	delete pb;
 }
+
+#endif 
