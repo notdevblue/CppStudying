@@ -1,3 +1,5 @@
+#if false
+
 #include <stdio.h>
 
 class KBase
@@ -108,3 +110,5 @@ void main()
 	// KDerived 함수의 실행을 끝내기 전 KBase 의 파괴자를 호출하고
 	// KBase 파괴자의 실행이 끝나면 KDerived 파괴자의 실행을 끝냄
 }
+
+#endif
