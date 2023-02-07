@@ -72,9 +72,9 @@ int main()
 
     KStack<float, 100> s2;
 
-    KStack s3;
-    KStack<> s4;
-    KStack<float> s5;
+    // KStack s3;
+    // KStack<> s4;
+    // KStack<float> s5;
     // 만약 default type 이 명시되어있다면 전부 다 가능
     // 하지만 해깔리게 만들기 때문에 추천하지 않음
 
