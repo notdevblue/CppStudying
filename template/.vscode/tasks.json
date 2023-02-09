@@ -5,11 +5,12 @@
             "label": "C/C++: g++.exe 활성 파일 빌드",
             "command": "C:\\Users\\nGle\\scoop\\apps\\mingw\\current\\bin\\g++.exe",
             "args": [
+                "-ftemplate-depth=100000",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
             ],
             "options": {
                 "cwd": "${fileDirname}"
